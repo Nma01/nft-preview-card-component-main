@@ -1,0 +1,147 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Containers */
+
+.container-dark{
+   
+    background-color: hsl(217, 54%, 11%);
+    /* margin: 5%; */
+    padding: 5% 0;
+    max-width: 1440px;
+    margin: 2% auto;
+    
+}
+
+.container-blue {
+    
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    margin: auto; 
+}
+
+/* Main Image */
+
+.equilibrium-img{
+    width: 100%;
+}
+
+.equilibrium-img.pointer {
+    cursor: pointer;
+}
+
+.equilibrium-img:hover {
+    background: url(./images/icon-view.svg);
+   
+   
+}
+
+
+
+
+
+/* Texts */
+
+h3{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin: 0.7rem 0;
+}
+
+h3:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+h3.pointer {
+    cursor: pointer;
+}
+
+.main-p{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+.eth-time-line{
+    display: flex;
+    justify-content: space-between;   
+    font-size: 0.9rem;
+}
+
+.eth{
+    margin-left: 3px;
+    color: hsl(178, 100%, 50%);
+}
+
+.time{
+    color: hsl(215, 51%, 70%);
+    margin-left: 3px;
+    
+}
+
+/* Icons */
+svg{
+    vertical-align: bottom;
+}
+
+hr{
+    border: 0.2px solid hsl(215, 51%, 70%);
+    opacity: 0.2;
+}
+
+.avatar-img{
+    width: 12%;
+    border: 1px solid white;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.avatar-text{
+    color: hsl(215, 51%, 70%);
+}
+
+.jules:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.jules.pointer {
+    cursor: pointer;
+}
+
+
+.avatar-section{
+    color: white;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+
+/* Attribution */
+.attribution{
+    color: white;
+    text-align: center;
+    font-size: 0.7rem;
+    padding-top: 3%;
+}
+
+.attribution a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.attribution a:hover {
+    color: hsl(178, 100%, 50%);
+
+}
+
